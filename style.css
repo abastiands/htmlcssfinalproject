@@ -1,0 +1,538 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 84px;
+    color: #F9FBFE;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0F8B8D;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #143642;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 138px;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    top: 39px;
+    left: 0;
+    z-index: 3;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 335px;
+    height: 67px;
+}
+
+.header-logo img {
+    width: 100%;
+}
+
+.header-navbar a {
+    font-size: 30px;
+    line-height: 36px;
+    color: #F9FBFE;
+    text-decoration: none;
+}
+
+.header-navbar a:nth-child(2) {
+    margin: 0 50px;
+}
+
+.side-header {
+    background-color: #0F8B8D;
+    height: 145px;
+    top: 0;
+    padding-top: 39px;
+    position: static;
+    border-radius: 30px 30px 0 0;
+}
+
+.hero {
+    width: 100%;
+    height: 700px;
+    background: url(images/Coffe_Header.png);
+    position: relative;
+    border-radius: 30px;
+}
+
+.hero-wrapper {
+    width: 100%;
+    height: 700px;
+    background: rgba(20, 54, 66, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.hero-wrapper h1 {
+    width: 487px;
+    text-align: center;
+}
+
+.hero-wrapper p {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #F9FBFE;
+    margin-top: 10px;
+}
+
+.wrapper {
+    width: 925px;
+    margin: 0 auto;
+}
+
+.about,
+.product,
+.store,
+.ask,
+.products-page {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left {
+    width: 335px;
+    height: 460px;
+}
+
+.content-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.about-right {
+    width: 452px;
+}
+
+.content-h2 {
+    width: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #EC9A29;
+}
+
+.content-p {
+    margin-top: 10px;
+}
+
+.product-left {
+    width: 425px;
+}
+
+.product-right {
+    width: 335px;
+    height: 335px;
+}
+
+.content-button {
+    width: 335px;
+    height: 70px;
+    margin-top: 45px;
+    background-color: #A8201A;
+    border-radius: 55px;
+    color: #F9FBFE;
+    display: block;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.product-left .content-button {
+    padding: 20px 50px;
+}
+
+.store-left {
+    width: 453px;
+    height: 453px;
+}
+
+.store-right {
+    width: 398px;
+}
+
+.store-right .content-button {
+    padding: 20px 94px;
+}
+
+.stores {
+    margin: 100px auto;
+}
+
+.stores h2,
+.ask h2 {
+    text-align: center;
+}
+
+.stores-ig {
+    color: #EC9A29;
+    border-bottom: 3px solid #EC9A29;
+}
+
+.stores-items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 108px;
+    margin: 50px 0;
+}
+
+.store-item {
+    width: 237px;
+    height: 237px;
+}
+
+.ask p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.ask a {
+    margin: auto;
+    text-align: center;
+}
+
+.ask .content-button {
+    padding: 20px 0;
+}
+
+footer {
+    width: 100%;
+    height: 460px;
+    border-radius: 30px;
+    background-color: #143642;
+}
+
+.footer-wrapper {
+    padding: 80px 0;
+    display: flex;
+}
+
+.footer-logo {
+    width: 335px;
+    height: 67px;
+    margin-bottom: 31px;
+    margin-right: 139px;
+    cursor: pointer;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-icon img {
+    background: #F9FBFE;
+}
+
+.footer-icon img:first-child {
+    margin-right: 27px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-nav li {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.footer-nav p {
+    color: #EC9A29;
+    margin-bottom: 20px;
+}
+
+.footer-nav>li:nth-child(2) {
+    margin: 0 100px;
+}
+
+.footer-nav li a {
+    color: #F9FBFE;
+    text-decoration: none;
+}
+
+.products-page h2,
+.products-page p {
+    text-align: center;
+}
+
+.products-page p {
+    margin: 40px auto;
+}
+
+.products-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 108px;
+    margin: 50px 0;
+}
+
+.product-item {
+    background: url(./images/Coffee_background.png);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    color: #F9FBFE;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product-item .product-image,
+.product-item .product-name,
+.product-item .product-price {
+    transition: all .75s;
+}
+
+.product-item:hover .product-image {
+    transform: translateY(-75px) scale(1.3);
+}
+
+.product-item:hover .product-name {
+    transform: translateY(110px);
+}
+
+.product-item:hover .product-price {
+    transform: translateY(100px);
+}
+
+.product-name {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.product-price {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+.product-image {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-info {
+    display: flex;
+}
+
+.product-info-right {
+    padding-top: 100px;
+}
+
+.product-info-description {
+    margin: 30px 0 60px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #143642;
+}
+
+.product-info-price {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 800;
+    color: #0F8B8D;
+}
+
+.products-detail,
+.findus-page,
+.help-page {
+    margin: 100px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.arrow {
+    transform: rotate(-180deg);
+    margin-right: 10px;
+}
+
+.product-info-desc p {
+    margin-top: 20px;
+}
+
+.product-info-desc a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findus-content {
+    display: flex;
+}
+
+.find-left {
+    margin-right: 60px;
+}
+
+.find-left p {
+    margin: 20px 0;
+    font-size: 24px;
+    width: 526px;
+}
+
+.find-items {
+    width: 474px;
+    height: 196px;
+    padding: 20px 40px;
+    background: #FFFFFF;
+    border: 1px solid #D2D2D2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.find-items:nth-of-type(2) {
+    margin: 20px 0;
+}
+
+.find-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.find-desc {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.find-right {
+    margin-top: 100px;
+    width: 581px;
+    height: 580px;
+}
+
+.find-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.help-page h2 {
+    margin-bottom: 50px;
+}
+
+.form-help {
+    width: 926px;
+    height: 784px;
+    background-color: #FFFFFF;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+    padding: 50px 98px;
+}
+
+.help-items {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.help-items label {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    width: 203px;
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.help-items input,
+.help-items textarea {
+    width: 493px;
+    height: 71px;
+    background-color: #FFFFFF;
+    border: 2px solid #D2D2D2;
+    border-radius: 20px;
+    padding: 21px 49px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.help-items textarea {
+    height: 200px;
+}
+
+.help-items .content-button {
+    width: 216px;
+    text-align: center;
+    padding: 20px 70px;
+    margin: 30px 255px 0;
+}
+
+.about.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.product.reveal {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.store.reveal {
+    position: relative;
+    transform: translateX(-150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translate(0);
+    opacity: 1;
+}

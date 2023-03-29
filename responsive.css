@@ -1,0 +1,394 @@
+@media (max-width: 360px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    h1 {
+        font-weight: 900px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .header-wrapper {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .header-logo {
+        width: 135px;
+        height: 27px;
+        margin-bottom: 20px;
+    }
+
+    .header-navbar {
+        padding-left: 10px;
+    }
+
+    .header-navbar a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .side-header {
+        height: 104px;
+        padding: 20px 0;
+    }
+
+    .hero {
+        height: 478px;
+        background-size: cover;
+        background-position: left;
+    }
+
+    .hero-wrapper {
+        height: 478px;
+    }
+
+    .hero-wrapper h1 {
+        width: 256px;
+        height: 86px;
+    }
+
+    .hero-wrapper p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .about,
+    .store,
+    .ask,
+    .products-page {
+        margin: 40px auto;
+        flex-direction: column;
+    }
+
+    .product {
+        flex-direction: column-reverse;
+        margin: 40px auto;
+    }
+    
+    .wrapper {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .about-left {
+        width: 150px;
+        height: 212px;
+        margin: 0 auto 20px;
+    }
+
+    .about-right {
+        width: 233px;
+    }
+
+    .content-button {
+        width: 135px;
+        height: 28px;
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 28px;
+    }
+
+    .content-image {
+        border-radius: 5px;
+    }
+
+    .product-left {
+        width: 273px;
+    }
+
+    .product-left .content-button {
+        padding: 8px 19px;
+    }
+
+    .product-right {
+        width: 150px;
+        height: 200px;
+        margin: 0 auto 20px;
+    }
+
+    .store-left {
+        width: 150px;
+        height: 155px;
+        margin: 0 auto 20px;
+    }
+
+    .store-right {
+        width: 255px;
+    }
+
+    .store-right .content-button {
+        padding: 8px 36px;
+    }
+
+    .stores {
+        margin: 40px auto;
+    }
+
+    .stores-items {
+        gap: 15px 32px;
+    }
+
+    .store-item {
+        width: 71px;
+        height: 71px;
+    }
+
+    .ask .content-button {
+        padding: 8px 0;
+    }
+
+    footer {
+        height: 362px;
+    }
+
+    .footer-wrapper {
+        padding: 20px 0;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 73px;
+        height: 29px;
+    }
+
+    .footer-logo a {
+        display: block;
+        width: 145px;
+    }
+
+    .footer-icon {
+        display: flex;
+    }
+    
+    .footer-icon img {
+        width: 25px;
+        height: 20px;
+    }
+
+    .footer-icon img:first-child {
+        margin-right: 10px;
+    }
+
+    .footer-left {
+        display: flex;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+    }
+
+    .footer-nav li {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 0;
+    }
+
+    .footer-nav > li {
+        margin-bottom: 0;
+    }
+
+    .footer-nav li a {
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 30px;
+        padding: 10px 0;
+        display: inline-block;
+    }
+
+    .footer-nav> li:nth-child(2) {
+        margin: 0;
+    }
+
+    .footer-nav p {
+        margin-bottom: 0;
+    }
+
+    .products-list {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+
+    .product-item {
+        width: 135px;
+        height: 135px;
+    }
+
+    .product-name,
+    .product-price {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .product-price {
+        margin: 5px 0;
+    }
+
+    .product-image {
+        width: 100px;
+    }
+
+    .product-info {
+        flex-direction: column;
+    }
+
+    .products-detail {
+        margin: 40px 0;
+    }
+
+    .product-info-left {
+        width: 279px;
+        height: 230px;
+    }
+
+    .product-info-left img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-info-right {
+        padding: 0;
+    }
+
+    .product-info-right h2 {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    .product-info-description {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 10px 0;
+    }
+
+    .product-info-price {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 900;
+    }
+
+    .product-info-desc {
+        margin-top: 30px
+    }
+
+    .product-info-desc h2 {
+        font-size: 20px;
+        line-height: 24px;
+        width: 90%;
+        border-bottom: 1px solid #EC9A29;
+    }
+
+    .product-info-desc a {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .product-info-desc p {
+        width: 267px;
+    }
+
+    .product-info-desc .content-button {
+        width: 150px;
+        height: 30px;
+    }
+
+    .arrow {
+        width: 15px;
+    }
+
+    .findus-page {
+        margin: 40px auto;
+    }
+
+    .findus-content {
+        flex-direction: column-reverse;
+    }
+
+    .find-right {
+        width: 284px;
+        height: 284px;
+        margin: 0;
+    }
+
+    .find-left {
+        margin-top: 36px;
+    }
+
+    .find-left p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .find-items {
+        width: 280px;
+        height: fit-content;
+        padding: 20px 24px;
+    }
+
+    .find-title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .find-desc {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .help-page {
+        margin: 40px auto;
+    }
+
+    .help-page h2 {
+        margin-bottom: 20px;
+    }
+
+    .form-help {
+        width: 280px;
+        height: fit-content;
+        padding: 30px 20px;
+    }
+
+    .help-items {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .help-items label {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 10px;
+    }
+
+    .help-items input,
+    .help-items textarea {
+        width: 231px;
+        height: 23px;
+        padding: 5px 16px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .help-items textarea {
+        height: 100px;
+    }
+
+    .help-items .content-button {
+        padding: 8px 52px;
+        width: 135px;
+        margin: 30px auto 0;
+    }
+}
